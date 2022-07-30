@@ -1,5 +1,5 @@
 # Imagen
-image.png
+<img width="948" alt="Captura" src="https://user-images.githubusercontent.com/50926052/181865559-bff833f3-1421-4475-9061-b96bfaa6ebd3.PNG">
 
 # Modulos
 ### `npm install react-router-dom@6`

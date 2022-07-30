@@ -1,3 +1,11 @@
+# Imagen
+image.png
+
+# Modulos
+### `npm install react-router-dom@6`
+-React-router-dom V6 https://reactrouter.com/docs/en/v6/getting-started/overview
+ 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

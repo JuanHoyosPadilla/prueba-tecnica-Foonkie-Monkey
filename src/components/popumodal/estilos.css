@@ -1,0 +1,120 @@
+.contenedor-popupnav {
+    background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    height: 100vh;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+}
+
+.popupnav {
+    background-color: #FFFBEF;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 50%;
+    height: 90vh;
+    box-sizing: border-box;
+}
+
+.popup-headernav {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: end;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(255, 205, 62, 1);
+}
+
+.popup-headernav span {
+    background-color: #FD7003;
+    width: 100px;
+    height: 33px;
+    padding: 10px;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    border-radius: 80px 50px 50px 10px;
+}
+
+.popup-headernav span:hover {
+    background-color: #fd6f03e4;
+    cursor: pointer;
+}
+
+.popup-bodynav {
+    width: 90vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.popup-bodynav ul {
+    width: 100vw;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.popup-bodynav ul li {
+    background-color: #FD7003;
+    width: 90vw;
+    list-style:none; 
+    font-size:20px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+
+.popup-bodynav ul li .a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 18px;
+    margin-right: 10px;
+}
+
+.popup-bodynav ul li .a .btn-home{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.popup-bodynav ul li:hover{
+    background-color: #fd6f03c5;
+}
+
+
+
+
+@media (max-width: 900px){
+    .popupnav {
+        width: 100%;
+        height: 100%;
+        margin-left: -20px;
+        margin-top: -10px;
+    }
+}

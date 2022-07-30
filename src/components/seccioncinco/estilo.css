@@ -1,0 +1,344 @@
+.seccion-numero-5 {
+    position: absolute;
+    width: 100%;
+    height: 480px;
+    top: 2409px;
+    background: #FFFBEF;
+}
+
+.seccion-numero-5 hr {
+    width: 70%;
+    background: #0A142F;
+    opacity: 0.06;
+    border: 0.914701px solid #0A142F;
+}
+
+.seccion-numero-5 .mas-informacion {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 70px 150px;
+
+}
+
+.seccion-numero-5 .mas-informacion .contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 20px;
+}
+
+.seccion-numero-5 .mas-informacion .contacto img {
+    width: 99px;
+    height: 52.57px;
+}
+
+.seccion-numero-5 .mas-informacion .contacto .numero {
+    font-family: 'Epilogue', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14.6352px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.seccion-numero-5 .mas-informacion .contacto .correo {
+    font-family: 'Epilogue', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14.6352px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.seccion-numero-5 .mas-informacion .links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 30px;
+    margin-top: 15px;
+}
+
+.seccion-numero-5 .mas-informacion .links-mobile select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.seccion-numero-5 .mas-informacion .links-mobile select::-ms-expand {
+    display: none;
+}
+
+.seccion-numero-5 .mas-informacion .links-mobile {
+    position: relative;
+    width: 316px;
+    height: 53px;
+    display: none;
+}
+
+.seccion-numero-5 .mas-informacion .links-mobile select {
+    display: inline-block;
+    width: 100%;
+    cursor: pointer;
+    padding: 7px 10px;
+    height: 100%;
+    border: 0;
+    outline: none;
+    border: 0.5px solid rgba(0, 0, 0, 0.43);
+    border-radius: 12px;
+    background: rgba(0, 0, 0, 0);
+    transition: all 0.25s ease;
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.seccion-numero-5 .mas-informacion .links-mobile i {
+    position: absolute;
+    right: 20px;
+    top: calc(50% - 6px);
+    width: 10px;
+    height: 10px;
+    display: block;
+    border-left: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    transform: rotate(-45deg);
+    transition: all 0.25s ease;
+}
+
+
+.seccion-numero-5 .mas-informacion .links strong {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16.4646px;
+    line-height: 26px;
+    color: #000000;
+}
+
+.seccion-numero-5 .mas-informacion .links span {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14.6352px;
+    line-height: 15px;
+    color: #000000;
+    opacity: 0.65;
+    cursor: pointer;
+}
+
+.seccion-numero-5 .mas-informacion .compañia {
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 28px;
+}
+
+.seccion-numero-5 .mas-informacion .compañia span {
+    font-family: 'Epilogue', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14.6352px;
+    line-height: 15px;
+    color: #000000;
+    opacity: 0.65;
+}
+
+.seccion-numero-5 .mas-informacion .suscribete {
+    height: 100px;
+    display: flex;
+    margin-top: 10px;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.seccion-numero-5 .mas-informacion .suscribete span {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16.4646px;
+    line-height: 26px;
+    color: #000000;
+}
+
+.seccion-numero-5 .mas-informacion .suscribete div {
+    width: 226.85px;
+    height: 45.74px;
+    background: rgba(255, 255, 255, 0.42);
+    border: 0.914701px solid rgba(0, 0, 0, 0.16);
+    border-radius: 5.48821px;
+    display: flex;
+    align-items: center;
+}
+
+.seccion-numero-5 .mas-informacion .suscribete div input {
+    border: none;
+    padding-left: 10px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12.8058px;
+    line-height: 17px;
+    color: #000000;
+    opacity: 0.65;
+    outline: none;
+}
+
+.seccion-numero-5 .mas-informacion .suscribete .flecha {
+    background: #FFA00D;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 5.48821px 5.48821px 0;
+    border: 0.914701px solid rgba(0, 0, 0, 0.16);
+    cursor: pointer;
+}
+
+.seccion-numero-5 .banner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    padding: 0px 100px;
+}
+
+.seccion-numero-5 .banner .redes-sociales {
+    display: flex;
+    gap: 13px;
+}
+
+.seccion-numero-5 .banner .creador {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15.55px;
+}
+
+.seccion-numero-5 .banner .creador span {
+    font-family: 'Epilogue', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14.6352px;
+    line-height: 15px;
+    color: #000000;
+}
+
+.seccion-numero-5 .banner .creador img {
+    width: 60.37px;
+    height: 32.06px;
+}
+
+.seccion-numero-5 .banner .derechos span {
+    font-family: 'Epilogue', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14.6352px;
+    line-height: 15px;
+    color: #000000;
+}
+
+.seccion-numero-5 .banner hr {
+    display: none;
+}
+
+@media (max-width: 800px) {
+    .seccion-numero-5 {
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        z-index: -1;
+        top: 2600px;
+    }
+
+    .seccion-numero-5 .mas-informacion {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        
+    }
+
+    .seccion-numero-5 hr {
+        width: 100%;
+        margin-top: -50px;
+    }
+
+    .seccion-numero-5 .mas-informacion .contacto img {
+        display: none;
+    }
+
+    .seccion-numero-5 .mas-informacion .contacto {
+        display: grid;
+        grid-template-columns: repeat(2, 150px);
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    .seccion-numero-5 .mas-informacion .contacto .numero {
+        font-family: 'Epilogue';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .seccion-numero-5 .mas-informacion .links {
+        display: none;
+    }
+
+    .seccion-numero-5 .mas-informacion .links-mobile {
+        order: -1;
+        display: block;
+    }
+
+    .seccion-numero-5 .mas-informacion .links-mobile hr {
+        width: 100%;
+        margin-top: 50px;
+        
+    }
+
+    .seccion-numero-5 .mas-informacion .compañia {
+        display: none;
+    }
+
+    .seccion-numero-5 .mas-informacion .suscribete {
+        order: -2;
+        width: 316px;
+        
+    }
+
+    .seccion-numero-5 .mas-informacion .suscribete div {
+        
+        width: 100%;
+    }
+
+    .seccion-numero-5 .mas-informacion .suscribete div input {
+        width: 900px;
+    }
+
+    .seccion-numero-5 .banner{
+        
+        display: grid;
+        grid-template-columns: repeat(2 , 100px);
+        gap: 50px;
+
+    }
+
+    .seccion-numero-5 .banner .creador span{
+        
+        display: none;
+    }
+
+
+    .seccion-numero-5 .banner .derechos{
+        grid-row: 2;
+        width: 300px;
+        margin-bottom: 20px;
+        
+    }
+}

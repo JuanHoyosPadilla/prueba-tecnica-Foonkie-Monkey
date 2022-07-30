@@ -1,0 +1,14 @@
+.icon-navbar{
+    display: none;
+}
+
+@media (max-width: 800px){
+    .icon-navbar{
+        display: block;
+        position: fixed;
+        z-index: 1;
+        right: 10%;
+        top: 500px;
+        cursor: pointer;
+    }
+}

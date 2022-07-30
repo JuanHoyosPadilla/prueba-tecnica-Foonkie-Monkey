@@ -1,0 +1,204 @@
+.seccion-comentarios {
+    position: absolute;
+    width: 100vw;
+    top: 750px;
+    display: flex;
+    justify-content: center;
+    z-index: -1;
+}
+
+.seccion-comentarios img {
+    width: 770px;
+    height: 770px;
+    position: absolute;
+    z-index: -1;
+}
+
+.seccion-comentarios .contenedor-comentarios {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 10%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 30px;
+}
+
+.seccion-comentarios .contenedor-comentarios .column-1-comentario {
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+    margin-top: 150px;
+    margin-left: -150px;
+}
+
+.seccion-comentarios .contenedor-comentarios .column-2-comentario {
+
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+}
+
+.seccion-comentarios .contenedor-comentarios .column-2-comentario .caja1 {
+    width: 287px;
+    height: 132px;
+    border-radius: 10px 50px 50px 50px;
+}
+
+.seccion-comentarios .contenedor-comentarios .column-2-comentario .caja2 {
+
+    width: 319.44px;
+    height: 153px;
+    border-radius: 10px 50px 50px 50px;
+    margin-left: 200px;
+    margin-top: -50px;
+}
+
+.seccion-comentarios .contenedor-comentarios .column-1-comentario .caja-2 {
+    width: 287px;
+    height: 132px;
+
+}
+
+.seccion-comentarios .contenedor-comentarios .comentarios {
+
+    box-sizing: border-box;
+    position: relative;
+    width: 339.44px;
+    height: 143px;
+    margin: auto;
+    border: 1px solid #FFCD3E;
+    backdrop-filter: blur(20px);
+    border-radius: 50px 10px 50px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.seccion-comentarios .contenedor-comentarios .comentarios article {
+
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    display: flex;
+    align-items: flex-end;
+    text-align: right;
+    letter-spacing: 0.553548px;
+    padding: 40px;
+}
+
+.seccion-comentarios .contenedor-comentarios .comentarios .usuario {
+    position: absolute;
+    top: -10px;
+    left: 150px;
+    width: 150px;
+    height: 20px;
+    padding: 0 10px;
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+    align-items: center;
+    background: #FFFFFF;
+}
+
+.seccion-comentarios .contenedor-comentarios .comentarios .usuario img {
+
+    width: 26px;
+    height: 26px;
+}
+
+.seccion-comentarios .contenedor-comentarios .comentarios .usuario span {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+
+}
+
+.seccion-comentarios .contenedor-comentarios .column-1-comentario .caja-2 .usuario {
+    top: 120px;
+    left: 100px;
+
+}
+
+.seccion-comentarios .contenedor-comentarios .column-2-comentario .caja1 .usuario {
+    left: 10px;
+
+}
+
+.seccion-comentarios .contenedor-comentarios .column-2-comentario .caja2 .usuario {
+    top: 140px;
+    left: 40px;
+    padding: 0;
+
+}
+
+@media (max-width: 800px) {
+    .seccion-comentarios {
+        position: absolute;
+        width: 100vw;
+        top: 1100px;
+        z-index: -1;
+    }
+
+    .seccion-comentarios img {
+        position: absolute;
+        width: 442px;
+        height: 442px;
+        overflow: hidden;
+        z-index: -1;
+        
+    }
+
+    .seccion-comentarios .contenedor-comentarios .column-2-comentario .caja1 {
+        height: 100%;
+        margin-top: -380px;
+        width: 250px;
+        height: 107.15px;
+        margin-left: -70px;
+    }
+
+    .seccion-comentarios .contenedor-comentarios .column-2-comentario .caja1 article {
+        width: 183px;
+        height: 54px;
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: 0.348981px;
+    }
+
+    .seccion-comentarios .contenedor-comentarios .column-2-comentario .caja2 {
+        display: none;
+    }
+
+    .seccion-comentarios .contenedor-comentarios .column-1-comentario .caja-1 {
+        display: none;
+    }
+
+    .seccion-comentarios .contenedor-comentarios .column-1-comentario .caja-2 {
+
+        width: 252px;
+        height: 112.54px;
+        left: 100px;
+        top: 50px;
+        margin-left: 100px;
+    }
+
+    .seccion-comentarios .contenedor-comentarios .column-1-comentario .caja-2 article {
+        width: 192px;
+        height: 54px;
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: 0.367365px;
+        margin-top: 30px;
+    }
+
+    .seccion-comentarios .contenedor-comentarios .column-1-comentario .caja-2 .usuario {
+        top: 100px;
+        left: 50px;
+    }
+}
